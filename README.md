@@ -52,7 +52,7 @@ Scenario: To generate a repeating Invoice for a company
    - Example: On command prompt ```C:\Documents\GitHub\ruby_simple\ >ruby demo.rb```
    
 ## Advance Usage
-Note: The default browser set to execute is chrome, change the following snippet in demo.rb file
+Note: The default browser to execute is chrome, change the following snippet in demo.rb file
 ```ruby
 	driver = Selenium::WebDriver.for :chrome
 	to 
