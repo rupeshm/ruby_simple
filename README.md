@@ -35,8 +35,8 @@ Scenario: To generate a repeating Invoice for a company
 
 ## Installation
 1. Install ruby from https://www.ruby-lang.org/en/installation/#rubyinstaller website.
-2. Install selenium-webdriver using command 'gem install selenium-webdriver'.
-3. Install rspec using command 'gem install rspec'.
+2. Install selenium-webdriver using command ```gem install selenium-webdriver```
+3. Install rspec using command ```gem install rspec```
 4. Download chrome driver from http://chromedriver.storage.googleapis.com/index.html and IE driver from http://selenium-release.storage.googleapis.com/index.html. Extract these executables and put them in executable path.
 
    Example: Extract the driver to 'C:\Temp\SeleniumDriver\' and add this path to the environment variable.
@@ -48,8 +48,8 @@ Scenario: To generate a repeating Invoice for a company
 
 2. Navigate to the test ruby_simple from command prompt
    * Example: if the test is downloaded/cloned to 'Documents\GitHub\ruby_simple' then open command prompt and navigate to 'Documents\GitHub\ruby_simple'
-3. Execute the command 'ruby demo.rb'
-   - Example: On command prompt 'C:\Documents\GitHub\ruby_simple\ >ruby demo.rb'
+3. Execute the command ```ruby demo.rb```
+   - Example: On command prompt ```C:\Documents\GitHub\ruby_simple\ >ruby demo.rb```
    
 ## Advance Usage
 Note: The default browser set to execute is chrome, change the following snippet in demo.rb file
