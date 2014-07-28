@@ -104,7 +104,7 @@ wait.until { $driver.execute_script("return document.readyState;") == "complete"
 $driver.find_element(css: "h2[class='x-boxed noBorder']").text.should == "Welcome to Xero"
 
 xeroUser = LoginPage.new # Make use of login class
-xeroUser.login("rupesh.more@hotmail.com","Timber07") # your userid and password will go here
+xeroUser.login("rupesh.more@hotmail.com","XeroDem0") # your userid and password will go here
 wait.until { $driver.execute_script("return document.readyState;") == "complete" }
 $driver.find_element(css: 'a#Dashboard').text.should == "Dashboard"
 $driver.find_element(css: 'span#title').text.should == "ABC Inc"
