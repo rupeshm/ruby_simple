@@ -167,4 +167,7 @@ $driver.find_element(css: "div[class='buttons footer no-margin-bottom'] button>S
 # Wait for page to load and verif newly repeating invoice created
 wait.until { $driver.find_element(id: 'notify01').displayed? }
 $driver.find_element(css: "div#notify01 p").text.include? "Repeating Template Saved."
+
+# Uncomment following line to close the browser after execution
+#$driver.quit
 #================= End of Script =================#
